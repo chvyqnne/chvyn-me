@@ -95,12 +95,14 @@ a {
 
 #about-text-container {
     padding-left: 50px;
+    font-size: 14px;
     order: 2;
 }
 
 /* social media icons and links */
 
 .socials {
+    padding-top: 15px;
     display: flex;
 }
 
@@ -119,7 +121,7 @@ a {
 }
 
 #hello {
-    padding-top: 100px;
+    /* padding-top: 50px; */
     font-size: 40px;
 }
 
@@ -214,6 +216,14 @@ a {
     filter: drop-shadow(1px 2px 6px rgba(162, 162, 162, 0.55));
 }
 
+#experience p {
+    font-size: 13px;
+}
+
+#experience li {
+    font-size: 13px;
+}
+
 #projects {
     background-color: #FEFEFE;
     padding: 20px;
@@ -294,6 +304,22 @@ a {
     padding: 40px;
 }
 
+#project3 {
+    background-color: #FEFEFE;
+    margin: 100px;
+    margin-top: 30px;
+    
+    display: flex;
+    flex-direction: row;
+
+    mix-blend-mode: normal;
+    filter: drop-shadow(1px 2px 6px rgba(162, 162, 162, 0.55));
+}
+
+#project3-content {
+    padding: 40px;
+}
+
 /* CONTACT PAGE */
 
 .contact-container {
@@ -323,6 +349,7 @@ a {
 
 #contact-form {
     padding-left: 40px;
+    height: 200px;
 }
 
 #contact-stripe1 {
@@ -335,6 +362,14 @@ a {
     height: auto;
     width: 40px;
     background-color: #D5DECD;
+}
+
+/* blog */
+
+#construction {
+    padding: 50px;
+    padding-top: 100px;
+    text-align: center;
 }
 
 /* responsive configs */
@@ -394,5 +429,4 @@ a {
         padding: 0px;
         margin: 0px;
     }
-
 }
